@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link rel="shortcut icon" href="https://i.imgur.com/NSXfj0l.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="new.css">
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <title>XTREST TWEAKS</title>
+</head>
+<body>
+    <div class="body">
+        <div class="containerXD">
+            <div class="containerLogo">
+                <a href="index.html"><img class="logo"src="Nn9I3hhv_400x400.jpg" alt=""></a>
+            </div>
+            <div class="redesSociales">
+                <div>
+                    <a class="gozu"href="https://twitter.com/YoXtrest" target="_blank"><box-icon name='twitter' type='logo' color='#098bd6' ></box-icon></a>
+                </div>
+                <div>
+                    <a class="gozu"target="_blank" href="https://www.instagram.com/los_secretos_de_emi/?hl=es-la+"><box-icon name='instagram' type='logo' color='#098bd6' ></box-icon></a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="name neon">
+            <h1>XTREST TWEAKS</h1>
+        </div>
+        <section class="">
+            <div class="containerP">
+                <a href="product4.html" class=" t">
+                    <img class="carpeta product1"src="carpeta.png" alt="">
+                    <p>EditGood V4 : Optimiza Windows , Aumenta FPS , Disminuye Ping , Disminuye Delay , Disminuye Input , Acutaliza controladores , Optimiza Mando y Keyboard
+                    </p><br>
+                    <b>30$</b>
+                </a>
+            </div>
+            <div class="form">
+                <form id="form"action="https://formspree.io/f/mknkyrvv" method="POST">
+                    <div class="space">
+                        <label>
+                            Your email:
+                            <input type="email" name="_replyto">
+                            
+                            </label>
+                    </div>
+                    <br class="space">
+                    <div class="space">
+                        <label>
+                            Your message:
+                            <textarea name="message"></textarea>
+                            </label>
+                    </div>
+                    <br class="space">
+                    <!-- your other form fields go here -->
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <h1 class="pw">Powered by <b>CMO</b></h1>
+        <div class="redesSociales">
+            <div>
+                <a class="gozu"href="https://twitter.com/mathias24681145" target="_blank"><box-icon name='twitter' type='logo' color='#fff' ></box-icon></a>
+            </div>
+            <div>
+                <a class="gozu"target="_blank" href="https://www.instagram.com/mathiassamanamud/?hl=es"><box-icon name='instagram' type='logo' color='#fff' ></box-icon></a>
+            </div>
+            <div>
+                <a class="gozu" target="_blank" href="https://wa.me/message/AZHI4CPBSVSZO1"><box-icon name='whatsapp' type='logo' color='#ffffff' ></box-icon></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const $form = document.querySelector("#form");
+        $form.addEventListener("submit", handleSubmit)
+        
+        async function handleSubmit(event){
+            event.preventDefault()
+            const form = new FormData(this);
+            const response = await fetch(this.action, {
+                method: this.method,
+                body: form,
+                headers: {
+                    "Accept": 'Application/json'
+                }
+            })
+            if(response.ok){
+                this.reset()
+                alert("gracias por contactarme, respondere pronto :). ")
+            }
+        }
+    </script>
+</body>
+</html>

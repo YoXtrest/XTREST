@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+    margin-bottom: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: antiquewhite;
+    height: 100vh;
+    overflow-x: hidden;
+    margin-right: 0;
+}
+label{
+    margin: 10px;
+}
+.containerP{
+    display: flex;
+    flex-direction: column;
+}
+*{
+    text-align: center;
+}
+form{
+    margin-right: 10vw;
+}
+.q{
+    justify-self: start;
+    display: flex;
+    flex-direction: column;
+}
+.space{
+    margin: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.body{
+    display: grid;
+    grid-template-columns: 35vmin 80vw;
+    grid-template-rows: 30vmin;
+    color: antiquewhite;
+    font-family: 'Oswald', sans-serif;
+    justify-items: end;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.logo{
+    width: 30vmin;
+    height: 27vmin;
+}
+.containerXD{
+    position: relative;
+    height: 27vmin;
+}
+.containerLogo{
+    height: 27vmin;
+}
+.redesSociales{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.gozu{
+    margin: 5px;
+}
+.containerLogo::after{
+    content: "";
+    height: 1px;
+    width: 100%;
+    left: 0;
+    display: inline-block;
+    bottom: -10px;
+    border-radius: 2px;
+    position: absolute;
+    background-color: rgb(15, 83, 128);
+}
+
+.name{
+    position: relative;
+    top: -2vmin;
+    font-size: 40px;
+    right: 10vw;
+}
+.neon {
+	color: #fff;
+    font-size: 4vw;
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+.producto{
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+.carpeta{
+    width: 50vmin;
+}
+section{
+    grid-column: 2/-1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pw{
+    text-align: center;
+}
+footer{
+    width: 100vw;
+}
