@@ -111,6 +111,7 @@ section{
     grid-column: 2/-1;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .pw{
     text-align: center;
