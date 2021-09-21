@@ -3,7 +3,7 @@ body{
     margin-bottom: 40px;
     font-family: 'Oswald', sans-serif;
     color: antiquewhite;
-    height: 100vh;
+    height: 110vh;
     overflow-x: hidden;
     margin-right: 0;
 }
@@ -40,10 +40,10 @@ a{
 .body{
     display: grid;
     grid-template-columns: 35vmin 80vw;
-    grid-template-rows: 30vmin;
+    grid-template-rows: 30vmin ;
     color: antiquewhite;
     font-family: 'Oswald', sans-serif;
-    justify-items: end;
+    justify-items: center;
     align-items: center;
     margin-bottom: 40px;
 
@@ -118,4 +118,7 @@ section{
 }
 footer{
     width: 100vw;
+}
+.ctos{
+    color: rgb(46, 104, 143);
 }
