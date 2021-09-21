@@ -101,7 +101,7 @@ a{
 }
 .producto{
     margin: 10px;
-    width: 300px;
+    width: 50vmin;
     text-align: center;
 }
 .carpeta{
@@ -119,9 +119,7 @@ section{
 footer{
     width: 100vw;
 }
-.negraso{
-    height: 200px;
-}
+
 .ctos{
     color: rgb(46, 104, 143);
 }
